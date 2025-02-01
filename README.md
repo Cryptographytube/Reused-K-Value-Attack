@@ -1,6 +1,6 @@
 # Reused-K-Value-Attack
 
-Weak Randomness in Nonce (k)
-RNG Weakness in ECDSA
-Biased k-value Attack
-Non-uniform k Distribution Exploit
+1 Weak Randomness in Nonce (k)
+2 RNG Weakness in ECDSA
+3 Biased k-value Attack
+4 Non-uniform k Distribution Exploit
