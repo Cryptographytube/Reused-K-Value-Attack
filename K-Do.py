@@ -4,7 +4,7 @@ from sympy import mod_inverse
 def detect_vulnerability(min_k, max_k):
     k_range = max_k - min_k + 1
     
-    if k_range <= 20:  # Agar k-values bohot kam range me hain
+    if k_range <= 20:
         return "HIGH", "Poor Randomness (RNG Weakness)"
     elif k_range <= 50:
         return "MEDIUM", "Potential Weak k-values"
